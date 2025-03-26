@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# 🎰 Boilerplate React + Tailwind CSS (Bally Edition)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una plantilla base para desarrollar interfaces en **React** con **Tailwind CSS** y **PostCSS**, diseñada para funcionar sin dependencias externas ni conexión a internet, ideal para entornos cerrados como **máquinas tragamonedas Bally** que emulan **Chromium embebido**.
 
-## Available Scripts
+## 🚀 Características
 
-In the project directory, you can run:
+- ⚛️ **React** sin dependencias complicadas (sin Vite/Webpack)
+- 🎨 **Tailwind CSS** incluido mediante PostCSS (sin CDN, ni `tailwind.config.js`)
+- 🧱 Pensado para máquinas con recursos limitados y entorno controlado
+- 🖥️ 100% compatible con navegadores embebidos (Chromium offline)
+
+## 📦 Compilaciones / Despliegues
 
 ### `npm start`
 
