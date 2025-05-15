@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.claseDemo{
-  background-color: red;
+@font-face {
+  font-family: "TTNormsPro";
+  src: url("./shared/assets/fonts/TTNormsPro/OTF/TTNormsProCompact-Normal.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TTNormsPro";
+  src: url("./shared/assets/fonts/TTNormsPro/OTF/TTNormsPro-Bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  @apply font-sans;
 }
